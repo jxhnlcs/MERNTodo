@@ -6,9 +6,13 @@ POST http://localhost:3333/todo/new
 Content-Type: application/json
 
 {
-  "text": "Comprar pizza"
+  "text": "Comprar bolo"
 }
 
 ###
 
-DELETE http://localhost:3333/todo/delete/64efdd96d3fc2c292b9fcc6a
+DELETE http://localhost:3333/todo/delete/64efdda6d3fc2c292b9fcc6e
+
+###
+
+PUT http://localhost:3333/todo/complete/64efe3543589841a40e146a7
