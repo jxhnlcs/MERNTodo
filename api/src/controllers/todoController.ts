@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-const Todo = require('../models/Todo');
+const Todo = require('../models/todoModel');
 
 export const getTodos = async (req: Request, res: Response) => {
   try {
