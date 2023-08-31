@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const MONGODB_URI = 'mongodb+srv://johnfonfon:hiLXnq3IshjiRDpW@john.hqskojc.mongodb.net/?retryWrites=true&w=majority'
+const MONGODB_URI = 'mongodb+srv://{USERNAME}:{PASSWORD}@{NAME}.hqskojc.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
